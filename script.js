@@ -1,5 +1,5 @@
 const startButton = document.getElementById('start-btn')
-const nextButton = document.getElementById('next-btn')
+const nextButton = document.getElementById('next-btn'.)
 
 
 const questionContainerElement = document.getElementById('question-container')
@@ -41,7 +41,7 @@ function showQuestion(question) {
         if( answer.correct) {
             button.dataset.correct =answer.correct
         }
-        button.addEventListener('click'),selectA appendChild(newChild: HTmlButtonElement): HTmlButtonElement
+        button.addEventListener('click',selectAnswer)
         answerButtonElement.appendChild(button)
     })
 }
